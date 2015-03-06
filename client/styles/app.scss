@@ -58,6 +58,10 @@ strong {
 .main-header {
   background: $base2;
   text-align: center;
+  img {
+    width: 100%;
+    max-width: 900px;
+  }
 }
 
 .prompt {
