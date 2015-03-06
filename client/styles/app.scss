@@ -1,3 +1,70 @@
+@import "variables";
+
 body {
-  font-family: sans-serif;
+  background: $base02;
+  color: $base0;
+  font-family: 'menlo', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+a {
+  color: $base2;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  &:hover {
+    color: $orange;
+  }
+}
+
+strong {
+  color: $green;
+}
+
+::selection {
+  background: $orange;
+  color: $base03;
+}
+
+.flow + .flow {
+  margin-top: 1em;
+}
+
+.pad {
+  padding: 1em;
+}
+
+.blink {
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 2s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.main-header {
+  background: $base2;
+  text-align: center;
+}
+
+.prompt {
+  color: $base01;
+}
+
+.view {
+  border-top: 3px solid rgba(black, .2);
+  box-shadow: rgba(black, .2) 0 10px 20px inset;
 }
