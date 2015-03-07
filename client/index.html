@@ -15,6 +15,7 @@
     <!-- bower:css -->
     <!-- endinject -->
 
+    <link rel="stylesheet" href="assets/fonts/afta/stylesheet.css">
     <link rel="stylesheet" href="assets/fonts/menlo/stylesheet.css">
     <link rel="stylesheet" href="assets/reset.css">
     <!-- inject:css -->
@@ -24,6 +25,8 @@
 
   </head>
   <body>
+
+    <nav-bar></nav-bar>
 
     <div ng-view></div>
 
@@ -36,6 +39,7 @@
 
     <!-- inject:js -->
     <script src="app.js"></script>
+    <script src="directives/nav-bar/nav-bar.directive.js"></script>
     <script src="views/home/home.controller.js"></script>
     <script src="views/home/home.js"></script>
     <!-- endinject -->

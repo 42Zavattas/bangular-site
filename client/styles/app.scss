@@ -1,16 +1,10 @@
 @import "variables";
 
 body {
-  background: $base02;
   color: $base0;
-  font-family: 'menlo', sans-serif;
+  font-family: 'afta', sans-serif;
   font-size: 24px;
   line-height: 1.5em;
-}
-
-* {
-  user-select: none;
-  -webkit-user-select: none;
 }
 
 a {
@@ -27,7 +21,7 @@ strong {
 }
 
 ::selection {
-  background: $orange;
+  background: rgba(black, .1);
   color: $base03;
 }
 
@@ -39,36 +33,36 @@ strong {
   padding: 1em;
 }
 
-.blink {
-  animation: blink 2s steps(5, start) infinite;
-  -webkit-animation: blink 2s steps(5, start) infinite;
-}
-
-@keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
-@-webkit-keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
-
-.main-header {
-  background: $base2;
-  text-align: center;
-  img {
-    width: 100%;
-    max-width: 900px;
-  }
-}
-
-.prompt {
-  color: $base01;
-}
-
 .view {
   border-top: 3px solid rgba(black, .2);
   box-shadow: rgba(black, .2) 0 10px 20px inset;
 }
+
+.logos-sprite {
+  max-width: 100%;
+  padding: 1em 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-pane {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'menlo', monospace;
+  font-size: 40px;
+  line-height: 2em;
+  color: $base01;
+  text-shadow: white 0 1px 0, rgba($base02, .3) 0 2px 0;
+}
+
+// imports
+@import "nav-bar";
+@import "button";
