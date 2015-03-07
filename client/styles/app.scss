@@ -33,9 +33,8 @@ strong {
   padding: 1em;
 }
 
-.view {
-  border-top: 3px solid rgba(black, .2);
-  box-shadow: rgba(black, .2) 0 10px 20px inset;
+.view-home {
+  margin-top: 100px;
 }
 
 .logos-sprite {
@@ -66,3 +65,10 @@ h1 {
 // imports
 @import "nav-bar";
 @import "button";
+
+.actions {
+  margin-top: 2em;
+  .btn {
+    margin-bottom: 1em;
+  }
+}
