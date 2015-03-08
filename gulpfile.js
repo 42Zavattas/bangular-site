@@ -271,6 +271,7 @@ gulp.task('serve', ['watch'], function () {
 gulp.task('preview', ['build'], function () {
   process.env.NODE_ENV = 'production';
   require('./dist/server/server');
+  openOpts.url = 'http://localhost:' + require('./server/config/environment/production').port;
   return gulp.src('client/index.html')
     .pipe($.open('', openOpts));
 });
