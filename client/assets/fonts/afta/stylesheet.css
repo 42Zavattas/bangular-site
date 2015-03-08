@@ -6,7 +6,6 @@
     font-family: 'afta';
     src: url('AftaSansThin-Regular-webfont.eot');
     src: url('AftaSansThin-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('AftaSansThin-Regular-webfont.woff2') format('woff2'),
          url('AftaSansThin-Regular-webfont.woff') format('woff'),
          url('AftaSansThin-Regular-webfont.ttf') format('truetype'),
          url('AftaSansThin-Regular-webfont.svg#afta_sansregular') format('svg');

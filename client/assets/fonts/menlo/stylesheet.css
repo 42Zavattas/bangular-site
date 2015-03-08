@@ -6,7 +6,6 @@
     font-family: 'menlo';
     src: url('menlo-powerline-webfont.eot');
     src: url('menlo-powerline-webfont.eot?#iefix') format('embedded-opentype'),
-         url('menlo-powerline-webfont.woff2') format('woff2'),
          url('menlo-powerline-webfont.woff') format('woff'),
          url('menlo-powerline-webfont.ttf') format('truetype'),
          url('menlo-powerline-webfont.svg#menlo_for_powerlineregular') format('svg');
