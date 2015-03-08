@@ -2,7 +2,10 @@
 
 angular.module('bangular', [
   'ngRoute',
-  'ngAnimate'
+  'ngAnimate',
+  'com.2fdevs.videogular',
+  'com.2fdevs.videogular.plugins.controls',
+  'com.2fdevs.videogular.plugins.overlayplay'
 ])
   .config(function ($routeProvider, $locationProvider) {
 
