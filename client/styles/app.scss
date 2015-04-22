@@ -58,6 +58,10 @@ h1 {
   text-shadow: white 0 1px 0, rgba($base02, .3) 0 2px 0;
 }
 
+.github-status {
+  margin-top: 20px;
+}
+
 // imports
 @import "nav-bar";
 @import "button";
