@@ -1,9 +1,13 @@
 {
   "generator-bangular": {
-    "version": "0.8.3",
+    "version": "0.10.3",
     "filters": {
       "backend": "json",
-      "ngAnimate": true
+      "reload": "livereload",
+      "ngAnimate": true,
+      "sassdoc": true,
+      "hasDocs": true,
+      "control": true
     }
   }
 }
